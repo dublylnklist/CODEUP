@@ -12,6 +12,7 @@ print(
 원하는 만큼 입력 받은 다음 그 수를 전부 더한 값, 그리고 그 평균을 나타내는 방법을
 생각해보다가 작성했다. sum(data_integer_mapped) 를 print 에서 두번 사용하니깐
 두번째에서 제대로 작동하지 않았다. 그래서 data_integer_sum 에 저장해서 사용했다.
+아무래도 연산을 두 번 하는거보다 이게 나을거 같다.
 '''
 data_integer = input().split()
 data_integer_mapped = map(int, data_integer)
